@@ -1,0 +1,26 @@
+/* Specific spacing for your paragraphs */
+.text-section {
+    margin: 25px 0; /* Creates vertical space between sections */
+    padding: 10px;
+    text-align: left; /* Professional alignment */
+}
+
+p {
+    font-size: 1.05rem;
+    line-height: 1.8; /* Increases space between lines for readability */
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 300;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(255,255,255,0.3), transparent);
+    margin: 20px 0;
+}
+
+h1 {
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+}
